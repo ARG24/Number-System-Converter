@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./App.js" defer></script>
+    <title>Converter</title>
+</head>
+<body>
+    <main>
+        <h1>Number System Converter</h1>
+   
+    <div id="select-container">
+        <select id="from-select">
+            <option value="from-binary">Binary</option>
+            <option value="from-Decimal">Decimal</option>
+            <option value="from-Hexadecimal">Hexadecimal</option>
+            <option value="from-Octal">Octal</option>
+        </select>
+        <span>TO</span>
+        <select id="to-select">
+            <option value="to-binary">Binary</option>
+            <option value="to-Decimal">Decimal</option>
+            <option value="to-Hexadecimal">Hexadecimal</option>
+            <option value="to-Octal">Octal</option>
+        </select>
+    </div>
+    <div id="input-container">
+        <input type="text" id="from-input" placeholder="Binary Number">
+        <span id="error"></span>
+    </div>
+    <button id="convert-button">Convert</button>
+
+    <input type="text" id="to-input" placeholder="Binary Number" readonly>    
+    </main>
+    
+   
+</body>
+</html>
